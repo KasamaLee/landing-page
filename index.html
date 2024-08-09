@@ -12,13 +12,36 @@
 </head>
 
 <body>
+
+	<!-- header -->
+	<section>
+		<div class="flex justify-between max-w-[1106px] m-auto py-[24px] relative">
+			<div class="font-[700] text-[32px] text-cyan-700">LOGO</div>
+			<ul class="flex gap-[24px] items-center">
+				<li class="text-slate-500 text-[18px] font-[500]">Home</li>
+				<li class="text-slate-500 text-[18px] font-[500]">Courses</li>
+				<li class="text-slate-500 text-[18px] font-[500]">Contact</li>
+				<li>
+					<button class="bg-cyan-500 text-[18px] font-[500] py-[11px] px-[18px] rounded-full text-white">
+						Sign in
+					</button>
+				</li>
+			</ul>
+
+		</div>
+	</section>
+	<!-- /header -->
+
 	<!-- section 1 -->
-	<section class="mt-[104px] mb-[80px]">
-		<div class="flex gap-[90px] max-w-[1106px] m-auto justify-center items-center">
-			<div class="image-box flex-1">
+	<section class="mt-[104px] pb-[80px]">
+		<div class="flex gap-[90px] max-w-[1106px] m-auto justify-center items-center relative">
+			<img src="./assets/images/shape-4.png" class="absolute z-0 left-[-150px] top-[-90px]" alt="">
+			<img src="./assets/images/shape-1.png" class="absolute z-0 right-[-70px] bottom-[-100px]" alt="">
+
+			<div class="image-box flex-1 z-10">
 				<img class="w-full" src="./assets/images/image-1.png" alt="">
 			</div>
-			<div class="content-box flex-1">
+			<div class="content-box flex-1 z-10">
 				<h1 class="text-6xl font-bold mb-6 text-slate-600">ก้าวสู่อาชีพ <br> Web Developer</h1>
 				<div class="content-detail mb-[68px] max-w-[446px] text-slate-500  font-semibold">
 					กับ Bootcamp สอนเขียนโค้ดแห่งแรกของประเทศไทย <br>
@@ -35,11 +58,28 @@
 	</section>
 	<!-- /section 1 -->
 
+	<!-- section new -->
+	<section class="min-h-[279px] flex items-center text-center">
+		<div class=" max-w-[1106px] m-auto justify-center items-center relative">
+			<p class="font-[700] text-[32px] text-slate-600 mb-[48px]">องค์กรชั้นนำที่ไว้วางใจเรา</p>
+			<div class="flex  w-full gap-[90px] flex-wrap justify-center">
+				<img src="./assets/images/logo-1.png" alt="">
+				<img src="./assets/images/logo-2.png" alt="">
+				<img src="./assets/images/logo-3.png" alt="">
+				<img src="./assets/images/logo-4.png" alt="">
+				<img src="./assets/images/logo-5.png" alt="">
+				<img src="./assets/images/logo-6.png" alt="">
+			</div>
+		</div>
+	</section>
+	<!-- /section new -->
+
 
 	<!-- section 2 -->
-	<section class="my-[80px]">
-
-		<div class="rounded-[40px] text-center shadow-md py-[64px] px-[54px]">
+	<section class="py-[80px] max-w-[1200px]  relative m-auto">
+		<img src="./assets/images/shape-2.png" class="absolute z-0 left-[-150px] top-[-30px]" alt="">
+		<img src="./assets/images/shape-3.png" class="absolute z-0 right-[-250px] bottom-[-20px]" alt="">
+		<div class="rounded-[40px] text-center shadow-md py-[64px] px-[54px] max-w-[1106px] m-auto z-10 bg-white relative">
 			<h2 class="text-[42px] font-[700] text-slate-600 mb-[16px]">Why Campcode?</h2>
 			<p class="text-slate-600">เราคือ Bootcamp สอนเขียนโค้ดแห่งแรกของประเทศไทย <br>
 				ประสบการณ์สอนกว่า 10 ปี</p>
@@ -76,7 +116,7 @@
 
 
 	<!-- section 3 -->
-	<section class="text-center my-[80px]">
+	<section class="text-center py-[80px] max-w-[1298px] m-auto">
 		<h2 class="text-slate-600 text-[42px] mb-[48px] font-[700]">นักเรียนของเรา</h2>
 		<div class="flex gap-[22px] px-[96px]">
 			<div class="rounded-[32px] shadow-lg py-[32px] px-[24px] max-w-[354px] w-full text-center">
@@ -118,9 +158,9 @@
 	<!-- /section 3 -->
 
 	<!-- section 4 -->
-	<section class="my-[80px] text-center">
+	<section class="py-[80px] text-center">
 		<h2 class="text-slate-600 font-[700] text-[42px]">ผู้สอน</h2>
-		<div class="flex mt-[48px]">
+		<div class="flex mt-[48px] justify-center">
 			<div class="max-w-[354px]">
 				<div class="max-w-[292px] relative m-auto">
 					<img src="./assets/images/p-1.png" class="w-full m-auto" alt="">
@@ -177,18 +217,150 @@
 	<!-- /section 4 -->
 
 	<!-- section 5 -->
-	<section class="text-center my-[80px]">
+	<section class="text-center py-[80px] max-w-[1106px] m-auto">
 		<h2 class="text-slate-600 text-[42px] mb-[48px] font-[700]">ภายใน 4 เดือน คุณจะได้เรียนรู้</h2>
-		<div class="flex">
-			<!-- <div class="">
-				<img src="./assets/images/icon-1.png" class="w-[64px] h-[64px] mx-auto mb-[16px]" alt="">
-        <p class="text-slate-500 font-[700] text-[24px]">การเขียน��ปรแกรม</p>
-        <p class="text-slate-500 font-[400] text-[16px]">เรียนรู้วิ��ีใช้��า��า��อมพิวเตอร์และการสร้า����ปรแกรม</p>
-			</div> -->
+		<div class="flex gap-[22px] justify-center flex-wrap">
+			<div
+				class="flex-[50%] max-w-[354px] border-cyan-500 border-2 rounded-[32px] py-[32px] px-[24px] bg-gradient-to-b from-cyan-300/15">
+				<img src="./assets/images/icon-1.png" class="w-[80px] h-[80px] mx-auto mb-[16px]" alt="">
+				<p class="text-cyan-700 font-[700] text-[24px]">Web design</p>
+				<p class="text-cyan-600 font-[400] text-[16px]">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+					dalar cons elementum tempus hac.</p>
+			</div>
+			<div
+				class="flex-[50%] max-w-[354px] border-cyan-500 border-2 rounded-[32px] py-[32px] px-[24px] bg-gradient-to-b from-cyan-300/15">
+				<img src="./assets/images/icon-2.png" class="w-[80px] h-[80px] mx-auto mb-[16px]" alt="">
+				<p class="text-cyan-700 font-[700] text-[24px]">HTML CSS</p>
+				<p class="text-cyan-600 font-[400] text-[16px]">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+					dalar cons elementum tempus hac.</p>
+			</div>
+			<div
+				class="flex-[50%] max-w-[354px] border-cyan-500 border-2 rounded-[32px] py-[32px] px-[24px] bg-gradient-to-b from-cyan-300/15">
+				<img src="./assets/images/icon-3.png" class="w-[80px] h-[80px] mx-auto mb-[16px]" alt="">
+				<p class="text-cyan-700 font-[700] text-[24px]">Javascript</p>
+				<p class="text-cyan-600 font-[400] text-[16px]">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+					dalar cons elementum tempus hac.</p>
+			</div>
+			<div
+				class="flex-[50%] max-w-[354px] border-cyan-500 border-2 rounded-[32px] py-[32px] px-[24px] bg-gradient-to-b from-cyan-300/15">
+				<img src="./assets/images/icon-4.png" class="w-[80px] h-[80px] mx-auto mb-[16px]" alt="">
+				<p class="text-cyan-700 font-[700] text-[24px]">React</p>
+				<p class="text-cyan-600 font-[400] text-[16px]">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+					dalar cons elementum tempus hac.</p>
+			</div>
+			<div
+				class="flex-[50%] max-w-[354px] border-cyan-500 border-2 rounded-[32px] py-[32px] px-[24px] bg-gradient-to-b from-cyan-300/15">
+				<img src="./assets/images/icon-5.png" class="w-[80px] h-[80px] mx-auto mb-[16px]" alt="">
+				<p class="text-cyan-700 font-[700] text-[24px]">Node JS</p>
+				<p class="text-cyan-600 font-[400] text-[16px]">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+					dalar cons elementum tempus hac.</p>
+			</div>
+			<div
+				class="flex-[50%] max-w-[354px] border-cyan-500 border-2 rounded-[32px] py-[32px] px-[24px] bg-gradient-to-b from-cyan-300/15">
+				<img src="./assets/images/icon-6.png" class="w-[80px] h-[80px] mx-auto mb-[16px]" alt="">
+				<p class="text-cyan-700 font-[700] text-[24px]">Git</p>
+				<p class="text-cyan-600 font-[400] text-[16px]">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+					dalar cons elementum tempus hac.</p>
+			</div>
 		</div>
 	</section>
 	<!-- /section 5 -->
 
+	<!-- section 6 -->
+	<section class="text-center py-[80px]">
+		<h2 class="text-slate-600 text-[42px] mb-[48px] font-[700]">ราคา</h2>
+		<div class="flex gap-[22px] justify-center max-w-[730px] m-auto">
+			<div class="text-left bg-slate-300 w-full max-w-[354px] min-h-[360px] p-[40px] rounded-[32px]">
+				<p class="font-[700] text-[28px] text-slate-500">ราคาปกติ</p>
+				<p class="font-[700] text-[28px] text-slate-500">70,000</p>
+			</div>
+			<div class="text-left bg-cyan-500 w-full max-w-[354px] min-h-[360px] p-[40px] rounded-[32px]">
+				<p class="font-[700] text-[28px] text-white">ราคาปกติ</p>
+				<p class="font-[700] text-[64px] text-white">70,000</p>
+				<p class=" text-white">สมัครเลยตอนนี้</p>
+			</div>
+		</div>
+		<div class="mt-[48px] flex justify-center gap-[24px]">
+			<button
+				class="bg-transparent hover:bg-cyan-700 text-cyan-900  hover:text-white py-2 px-4 border border-cyan-900 hover:border-transparent  rounded-full">ตารางเรียน</button>
+			<button class="bg-amber-500 hover:bg-amber-600  py-2 px-4 text-white rounded-full">สมัครเรียนเลย</button>
+		</div>
+	</section>
+	<!-- /section 6 -->
+
+
+	<!-- section 7 -->
+	<section class="text-center py-[80px]">
+		<h2 class="text-[42px] font-[700] text-slate-600 mb-[48px]">คำถามที่พบบ่อย</h2>
+		<div class="max-w-[1106px] m-auto gap-[24px] flex flex-col">
+			<div class="text-left py-[20px] px-[24px] bg-cyan-100/30 border-2 border-cyan-500 rounded-[20px]">
+				<div class="accordion">
+					<p class="text-[28px] font-[700] text-slate-500">เรียนสดหรือออนไลน์</p>
+				</div>
+				<p class="panel mt-[11px] text-[16px] font-[400] text-slate-400">เป็นการเรียนสด 100% ที่ตึกABC Bts หมอชิต
+					และมีคลิปอัดการเรียนการสอนย้อนหลังให้</p>
+			</div>
+
+			<div class="text-left py-[20px] px-[24px] bg-cyan-100/30 border-2 border-cyan-500 rounded-[20px]">
+				<div class="accordion">
+					<p class="text-[28px] font-[700] text-slate-500">ไม่มีพื้นฐานสามารถเรียนได้ไหม</p>
+				</div>
+				<p class="panel mt-[11px] text-[16px] font-[400] text-slate-400">เรียนได้แน่นอน
+					ศิษย์เก่าของเราหลายท่านมาจากสายงานอื่น</p>
+			</div>
+
+			<div class="text-left py-[20px] px-[24px] bg-cyan-100/30 border-2 border-cyan-500 rounded-[20px]">
+				<div class="accordion">
+					<p class="text-[28px] font-[700] text-slate-500">เรียนจบจะได้งานทำเลยไหม</p>
+				</div>
+				<p class="panel mt-[11px] text-[16px] font-[400] text-slate-400">ทางเรามีการสอน workshop ทำเรซูเม่
+					และมีบริษัทพันธมิตรเข้าฟัง pitching โปรเจคทุกรุ่น</p>
+			</div>
+
+			<div class="text-left py-[20px] px-[24px] bg-cyan-100/30 border-2 border-cyan-500 rounded-[20px]">
+				<div class="accordion">
+					<p class="text-[28px] font-[700] text-slate-500">จำกัดอายุไหม</p>
+				</div>
+				<p class="panel mt-[11px] text-[16px] font-[400] text-slate-400">ไม่จำกัดอายุ</p>
+			</div>
+		</div>
+	</section>
+	<!-- /section 7 -->
+
+	<!-- section 8 -->
+	<section class=h-[124px]">
+		<div class="max-w-[1106px] m-auto flex items-center justify-between py-[24px] ">
+			<div class="font-[700] text-[32px] text-cyan-700">LOGO</div>
+			<div class="text-slate-300 font-[300]">
+				Copyright © 2025 BRIX Agency | All Rights Reserved | <span class="text-slate-500">Terms and Conditions</span> |
+				<span class="text-slate-500">Privacy Policy</span>
+			</div>
+		</div>
+	</section>
+	<!-- /section 8 -->
+
+
 </body>
+
+<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+		if (i > 0) {
+			acc[i].nextElementSibling.style.display = "none"
+		}
+
+		acc[i].addEventListener("click", function () {
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.display === "block") {
+				panel.style.display = "none";
+			} else {
+				panel.style.display = "block";
+			}
+		});
+	}
+</script>
 
 </html>
